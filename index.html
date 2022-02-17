@@ -7,12 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>传统文化3D展厅</title>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/aframe/1.2.0/aframe.min.js"></script> -->
-    <script src="./js/package/aframe.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/aframe/1.2.0/aframe.min.js"></script>
+    <!-- <script src="./js/package/aframe.min.js"></script> -->
 
     <script src="./js/package/aframe-physics-system.js"></script>
     <script src="./js/package/aframe-extras.min.js"></script>
     <script src="./js/package/aframe-look-at-component.min.js"></script>
-      <script src="./js/package/vue.min.js"></script>
+      <!-- <script src="./js/package/vue.min.js"></script> -->
+      <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.7/vue.min.js"></script>
+      <script src="https://cdn.bootcdn.net/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <!-- <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script> -->
 
     <!-- 工具库 -->
@@ -429,6 +432,7 @@
                             <div v-show="infomations[userId].wx" :title="infomations[userId].wx">
                                 <a href="#">
                                     <img id="blog-wx"
+                                        src="https://pic-xiaocao123-1304191709.cos.ap-guangzhou.myqcloud.com/wechat.svg"
                                         src="./assets/icons/wechat.svg"
                                         :alt="infomations[userId].wx">
                                 </a>
@@ -436,6 +440,7 @@
                             <div v-show="infomations[userId].qq" :title="infomations[userId].qq">
                                 <a href="#">
                                     <img id="blog-qq"
+                                        src="https://pic-xiaocao123-1304191709.cos.ap-guangzhou.myqcloud.com/qq.svg"
                                         src="./assets/icons/qq.svg"
                                         :alt="infomations[userId].qq">
                                 </a>
@@ -443,6 +448,7 @@
                             <div v-show="infomations[userId].github">
                                 <a :href="infomations[userId].github" target="_blank">
                                     <img id="blog-github"
+                                        src="https://pic-xiaocao123-1304191709.cos.ap-guangzhou.myqcloud.com/github.svg"
                                         src="./assets/icons/github.svg"
                                         :alt="infomations[userId].github">
                                 </a>
@@ -450,6 +456,7 @@
                             <div v-show="infomations[userId].juejin">
                                 <a :href="infomations[userId].juejin" target="_blank">
                                     <img id="blog-juejin"
+                                        src="https://pic-xiaocao123-1304191709.cos.ap-guangzhou.myqcloud.com/icon＼盘后掘金.svg"
                                         src="./assets/icons/icon＼盘后掘金.svg"
                                         :alt="infomations[userId].juejin">
                                 </a>
@@ -457,6 +464,7 @@
                             <div v-show="infomations[userId].csdn">
                                 <a :href="infomations[userId].csdn" target="_blank">
                                     <img id="blog-csdn"
+                                        src="https://pic-xiaocao123-1304191709.cos.ap-guangzhou.myqcloud.com/csdn.svg"
                                         src="./assets/icons/csdn.svg"
                                         :alt="infomations[userId].csdn">
                                 </a>
@@ -472,7 +480,7 @@
     </div>
 
   
-    <script src="./js/package/jquery.min.js"></script>
+    <!-- <script src="./js/package/jquery.min.js"></script> -->
     <script src="./js/popup.js"></script>
     <script src="./js/iconfont.js"></script>
     <!-- 首页蒙层 -->
